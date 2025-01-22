@@ -1,0 +1,27 @@
+Test Case ID,Description,Steps,Result,Severity Level,Remarks
+Product Listing,Test the product listing page to ensure products are displayed correctly,"1. Open homepage 
+2. Check if all products are visible 
+3. Verify product details (name, price, image)",The product listing page works as expected and all details load correctly.,Medium,Everything is fine here.
+Product Detail,Check if the product detail page loads correctly when clicking on any product,"1. Go to product listing page 
+2. Click on different products to view details 
+3. Verify product details (description, price, etc.)",The product detail page loads fine.,Low,No issues found here.
+Add to Cart,Test the add-to-cart feature to confirm products are added to the cart correctly,"1. Open product listing page 
+2. Select a product 
+3. Click ""Add to Cart"" button 
+4. Check cart for added product 
+5. User can update quantity or delete product",Product added to cart successfully.,High,Works fine.
+API Check,Verify API functionality using Postman,"1. Open Postman 
+2. Test product listing API 
+3. Verify response includes correct data",API is working fine and returns accurate results.,High,No issues.
+Responsive Design,Test responsiveness across devices,"1. Open on desktop browser 
+2. Resize window to test responsiveness 
+3. Check mobile and tablet layout",The project is fully responsive and works on all screen sizes.,Medium,No alignment issues.
+Search Bar,Test the search bar functionality to ensure relevant results,"1. Type queries in search bar 
+2. Verify correct products are displayed",Search bar works well and results are accurate.,Low,Proper Work.
+Email Input Validation,Test email input validation for missing '@' symbol,"1. Enter email without '@' symbol 
+2. Verify validation message appears","The validation message ""Please include an '@' in this email address"" appears.",Medium,Works fine.
+Performance Analysis,Check performance using Lighthouse,"1. Run Lighthouse performance audit 
+2. Review performance, accessibility, and SEO scores","Performance, accessibility, and SEO are good.",High,No issues.
+Browser Compatibility,"Test on multiple browsers (Chrome, Edge)","1. Open on Chrome 
+2. Test on Edge 
+3. Ensure functionality is consistent across browsers",The project works perfectly on all tested browsers.,Medium,No issues.
